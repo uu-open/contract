@@ -14,11 +14,14 @@
     "ui"
   ],
   "require": {
-    "php": ">=7.3"
+    "php": ">=7.0"
   },
   "autoload": {
     "psr-4": {
       "UU\\Contract\\": "src/"
     }
+  },
+  "config": {
+    "sort-packages": true
   }
 }
