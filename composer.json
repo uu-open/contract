@@ -1,0 +1,24 @@
+{
+  "name": "uu/contract",
+  "description": "UU接口插件",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "毛自豪",
+      "email": "4213509@qq.com"
+    }
+  ],
+  "homepage": "https://hyperf.plus",
+  "keywords": [
+    "hyperf",
+    "ui"
+  ],
+  "require": {
+    "php": ">=7.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "UU\\Contract\\": "src/"
+    }
+  }
+}
